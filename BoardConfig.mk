@@ -25,6 +25,12 @@
 
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/d2lte/include
 
+TARGET_GCC_VERSION_EXP := 4.8
+TARGET_USE_O3 := true
+STRICT_ALIASING := true
+SUPPRES_UNUSED_WARNING := true
+OPT_MEMORY := true
+
 # Kernel
 TARGET_KERNEL_SOURCE        := kernel/samsung/d2
 BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom user_debug=31 zcache
