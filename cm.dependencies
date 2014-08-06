@@ -1,8 +1,8 @@
 [
   {
-    "remote": "cm",
+    "remote": "no",
     "repository": "android_device_samsung_msm8960-common",
     "target_path": "device/samsung/msm8960-common",
-    "revision": "cm-11.0"
+    "revision": "kitkat"
   }
 ]
